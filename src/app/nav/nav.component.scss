@@ -1,0 +1,66 @@
+.flxNav {
+    margin: 0;
+    padding: 0;
+    width: 99.1vw;
+    height: 3vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+
+.searchFlxNav {
+    margin: 0;
+    padding: 0;
+    width: 99.1vw;
+    height: 5vh;
+    background-color: #489682;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+
+.subFlex {
+    display: flex;  
+    height: 100%;
+    align-items: center;
+    width: 100%;
+}
+
+.subFlex2 {
+    display: flex;  
+    height: 100%;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.pi-shopping-cart {
+    margin-left: 65%;
+}
+
+.pi-user {
+    margin-right: 10%;
+}
+
+.navIcons {
+    font-size: 30px;
+    color: #FFB84D;
+}
+
+.gridNav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+}
+
+.GoFit {
+    font-size: 35px;
+    color: #489682;
+}
+
+.searchInput {
+    width: 35%;
+}
