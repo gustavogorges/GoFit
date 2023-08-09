@@ -15,7 +15,7 @@
     padding: 0;
     width: 99.1vw;
     height: 5vh;
-    background-color: #489682;
+    background-color: #03384C;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,12 +58,13 @@
 
 .GoFit {
     font-size: 35px;
-    color: #489682;
+    color: #03384C;
 }
 
 .slogan {
     color: #FFB84D;
     font-weight: bold;
+    font-size: 25px;
 }
 
 
@@ -73,4 +74,5 @@
 
 .searchInput {
     width: 100%;
+    height: 2em;
 }

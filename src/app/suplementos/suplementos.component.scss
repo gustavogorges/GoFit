@@ -1,29 +1,19 @@
 .mainDiv {
-    padding : 3%;
+    padding : 2%;
     height: 100%;
     width: 100%;
 }
 
 .mainGrid {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     width: 100%;
-    height: 35vh;
-}
-
-.box {
-    display: flex;
-    align-items: center;
-    width: 90%;
-    height: 70%;
-    background-color: #489682;
-    border-radius: 10px;
-    padding: 5%;
+    height: 100vh;
 }
 
 .mainTitle {
     font-size: 3.5em;
-    color: #489682;
+    color: #03384C;
     font-weight: 200;
     border-bottom: 4px solid #FFB84D;
 }
@@ -38,19 +28,33 @@
     align-items: center;
 }
 
+// BOX PRODUTO
+
+.box {
+    display: flex;
+    width: 65%;
+    height: 30em;
+    background-color: #03384C;
+    border-radius: 10px;
+    padding: 5%;
+    flex-direction: column;
+}
+
 .fotoProduto {
-    width: 60%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     background-color: #cecece;
     border-radius: 5px;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
 .informacoes {
     width: 40%;
     height: 80%;
-    display: flex;
+
     padding-left: 4%;
-    flex-direction: column;
+    
 }
 
 .nomeProduto {
@@ -58,12 +62,23 @@
     color: #FFf;
 }
 
-.pesoProduto {
+.precoProduto {
+    width: 100%;
+    font-size: 1.2em;
+    color: #03384C;
+}
+
+.descProduto {
     font-size: 1.2em;
     color: #FFf;
 }
 
-.objetivoProduto {
-    font-size: 1.2em;
-    color: #FFf;
+.btnAddCarrinho {
+    background-color: #FFB84D;
+    border-color: #03384C;
+}
+
+.btnAddCarrinho:hover {
+    background-color: #faab33;
+    border-color: #cecece;
 }
