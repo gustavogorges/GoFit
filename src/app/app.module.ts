@@ -8,14 +8,12 @@ import {ButtonModule} from 'primeng/button';
 import { NavComponent } from './nav/nav.component';
 import {InputTextModule} from 'primeng/inputtext';
 import { SuplementosComponent } from './suplementos/suplementos.component';
-import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    SuplementosComponent,
-    MenuComponent
+    SuplementosComponent
   ],
   imports: [
     BrowserModule,
