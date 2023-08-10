@@ -34,7 +34,7 @@
     display: flex;
     width: 65%;
     height: 30em;
-    background-color: #03384C;
+    background-color: #fff;
     border-radius: 10px;
     padding: 5%;
     flex-direction: column;
@@ -59,23 +59,23 @@
 
 .nomeProduto {
     font-size: 1.4em;
-    color: #FFf;
+    color: #03384C;
 }
 
 .precoProduto {
     width: 100%;
     font-size: 1.2em;
-    color: #03384C;
+    color: #0338;
 }
 
 .descProduto {
     font-size: 1.2em;
-    color: #FFf;
+    color: #0338;
 }
 
 .btnAddCarrinho {
     background-color: #FFB84D;
-    border-color: #03384C;
+    border-color: #fff;
 }
 
 .btnAddCarrinho:hover {
