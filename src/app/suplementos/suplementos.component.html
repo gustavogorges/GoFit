@@ -1,3 +1,4 @@
+<app-nav></app-nav>
 <div class="mainDiv">
     <div class="tituloFiltro">
         <h1 class="mainTitle">Suplementos</h1>
@@ -14,7 +15,12 @@
                 <p class="descProduto">250g</p>
                 <p class="precoProduto">100,00 R$</p>
             </div>
-            <button pButton type="button" label="Click" class="btnAddCarrinho"></button>
+            <button
+             pButton type="button"
+             label="Click"
+             class="btnAddCarrinho"
+             (click)="paginaProdutos()"
+               ></button>
         </div>
     </div>
 
