@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
+  sideNav : boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  openNav() : void {
+    this.sideNav = true;
   }
 
 }
