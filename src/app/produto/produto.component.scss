@@ -94,13 +94,20 @@
 }
 
 .nomeProduto {
-    font-size: 1.7em;
+    font-size: 2.5em;
 }
 
 .textoEsquerdo {
     padding-top: 5%;
     padding-left: 10%;
     margin: 0;
+}
+
+.descricaoTitle {
+    font-size: 1.7em;
+    border-bottom: 3px solid #faab33;
+    font-weight: bold;
+    color: #03384C;
 }
 
 .informacoesProdutoText {
@@ -112,13 +119,13 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .notaProduto {
     width: 70%;
     height: 60%;
-    background-color: #faab33;
+    background-color: green;
     border-radius: 10%;
     display: flex;
     justify-content: center;
