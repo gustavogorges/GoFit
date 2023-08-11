@@ -9,20 +9,24 @@ import { NavComponent } from './nav/nav.component';
 import {InputTextModule} from 'primeng/inputtext';
 import { SuplementosComponent } from './suplementos/suplementos.component';
 import { ProdutoComponent } from './produto/produto.component';
+import {InputNumberModule} from 'primeng/inputnumber';
+import { CarrinhoComponent } from './carrinho/carrinho.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     SuplementosComponent,
-    ProdutoComponent
+    ProdutoComponent,
+    CarrinhoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     AccordionModule,
     ButtonModule,
-    InputTextModule
+    InputTextModule,
+    InputNumberModule
   ],
   providers: [],
   bootstrap: [AppComponent]
