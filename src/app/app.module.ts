@@ -11,6 +11,7 @@ import { SuplementosComponent } from './suplementos/suplementos.component';
 import { ProdutoComponent } from './produto/produto.component';
 import {InputNumberModule} from 'primeng/inputnumber';
 import { CarrinhoComponent } from './carrinho/carrinho.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CarrinhoComponent } from './carrinho/carrinho.component';
     NavComponent,
     SuplementosComponent,
     ProdutoComponent,
-    CarrinhoComponent
+    CarrinhoComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

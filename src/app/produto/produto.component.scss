@@ -1,10 +1,9 @@
-* {
-    font-family: sans-serif;
-}
+
 
 .mainDiv {
     width: 99.1vw;
     height: 82vh;
+    font-family: sans-serif;
 }
 
 .mainGrid {
@@ -71,7 +70,79 @@
     margin-top: 4%;
     width: 80%;
     height: 70%;
-    background-color:antiquewhite ;
+    // background-color:antiquewhite ;
+    display: grid;
+    grid-template-rows: 60% 40%;
+}
+
+.cimaCarrinho {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.esquerdo {
+    height: 100%;
+    width: 100%;
+}
+
+.textProd {
+    font-size: 1.3em;
+    color: #03384C;
+    font-weight: bold;
+}
+
+.nomeProduto {
+    font-size: 1.7em;
+}
+
+.textoEsquerdo {
+    padding-top: 5%;
+    padding-left: 10%;
+    margin: 0;
+}
+
+.informacoesProdutoText {
+
+}
+
+.direito {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notaProduto {
+    width: 70%;
+    height: 60%;
+    background-color: #faab33;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numeroNota {
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.baixoCarrinho {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding-left: 5%;
+    width: 100%;
+}
+
+.textInfo {
+    font-size: 1.1em;
+    color: #03384C;
+    font-weight: bold;
 }
 
 .btnAddCarrinho {
@@ -95,4 +166,20 @@
 .btnAddCarrinho:hover {
     background-color: #faab33;
     border-color: #cecece;
+}
+
+.iconsFoto {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seta {
+    font-size: 1.2em;
+}
+
+.seta:hover {
+    cursor: pointer;
 }

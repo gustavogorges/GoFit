@@ -1,0 +1,50 @@
+<div class="mainDiv">
+    <div class="boxLogin">
+        <div class="ladoLogin">
+            <p class="titleLogin">Login</p>
+            <div class="inputsLogin">
+                <div class="divUsuario divsLoginCadastro">
+                    <p>Usuário ou Email : </p>
+                    <input type="text" pInputText class="inputUsuario"/>
+                </div>
+                <div class="divSenha divsLoginCadastro">
+                    <p>Senha : </p>
+                    <input type="text" pInputText class="inputSenha"/>
+                    <a href="#" class="recuperarSenha">Esqueci minha senha</a>
+                </div>
+            </div>
+            <div class="divBtnLogin">
+                <button
+                 pButton 
+                 type="button"
+                  label="Login"
+                   class="btnLogin"
+                   (click)="logar()" ></button>
+            </div>
+        </div>
+        <div class="ladoCadastro">
+            <p class="titleLogin">Criar Conta</p>
+            <div class="inputsCadastro">
+                <div class="divNome divsLoginCadastro">
+                    <p>Nome Completo : </p>
+                    <input type="text" pInputText class="inputNome inputsLoginCadastro"/>
+                </div>
+                <div class="divEmail divsLoginCadastro">
+                    <p>E-mail : </p>
+                    <input type="text" pInputText class="inputEmail inputsLoginCadastro"/>
+                </div>
+                <div class="divSenha divsLoginCadastro">
+                    <p>Senha : </p>
+                    <input type="text" pInputText class="inputSenha"/>
+                </div>
+            </div>
+            <div class="divBtnLogin">
+                <button 
+                pButton type="button" 
+                label="Criar conta" 
+                class="btnLogin" 
+                ></button>
+            </div>
+        </div>
+    </div>
+</div>

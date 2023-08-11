@@ -25,4 +25,8 @@ export class NavComponent implements OnInit {
     this.router.navigate(['/paginaCarrinho'])
   }
 
+  suplementos() : void {
+    this.router.navigate(['/paginaSuplementos'])
+  }
+
 }
