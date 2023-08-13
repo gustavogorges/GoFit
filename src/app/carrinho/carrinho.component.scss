@@ -4,15 +4,23 @@
     width: 99.1vw;
     height: 82vh;
     font-family: sans-serif;
+    display: flex;
 }
 
-.mainGrid {
+.mainGridEsquerdo {
     padding-top: 5%;
-    width: 90%;
+    width: 45%;
     height: 90%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr)
+}
+
+.mainGridDireito {
+    padding-top: 5%;
+    width: 45%;
+    height: 110%;
+    margin: 0 auto;
+    display: grid;
 }
 
 .ladoEsquerdo {
