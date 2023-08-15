@@ -4,6 +4,7 @@ import { SuplementosComponent } from './suplementos/suplementos.component';
 import { ProdutoComponent } from './produto/produto.component';
 import { CarrinhoComponent } from './carrinho/carrinho.component';
 import { LoginComponent } from './login/login.component';
+import { PerfilComponent } from './perfil/perfil.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: "paginaCarrinho",
     component: CarrinhoComponent
+  },
+  {
+    path: "paginaPerfil",
+    component: PerfilComponent
   },
 ];
 

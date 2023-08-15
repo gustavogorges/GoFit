@@ -12,6 +12,7 @@ import { ProdutoComponent } from './produto/produto.component';
 import {InputNumberModule} from 'primeng/inputnumber';
 import { CarrinhoComponent } from './carrinho/carrinho.component';
 import { LoginComponent } from './login/login.component';
+import { PerfilComponent } from './perfil/perfil.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LoginComponent } from './login/login.component';
     SuplementosComponent,
     ProdutoComponent,
     CarrinhoComponent,
-    LoginComponent
+    LoginComponent,
+    PerfilComponent
   ],
   imports: [
     BrowserModule,
