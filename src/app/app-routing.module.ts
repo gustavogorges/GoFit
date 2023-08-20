@@ -7,6 +7,8 @@ import { LoginComponent } from './login/login.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { AcessoriosComponent } from './acessorios/acessorios.component';
 import { RoupasComponent } from './roupas/roupas.component';
+import { ProdutoAcessorioComponent } from './produto-acessorio/produto-acessorio.component';
+import { ProdutoRoupaComponent } from './produto-roupa/produto-roupa.component';
 
 const routes: Routes = [
   {
@@ -18,8 +20,16 @@ const routes: Routes = [
     component: SuplementosComponent
   },
   {
-    path: "paginaProduto",
+    path: "paginaProdutoSuplementos",
     component: ProdutoComponent
+  },
+  {
+    path: "paginaProdutoAcessorios",
+    component: ProdutoAcessorioComponent
+  },
+  {
+    path: "paginaProdutoRoupas",
+    component: ProdutoRoupaComponent
   },
   {
     path: "paginaCarrinho",

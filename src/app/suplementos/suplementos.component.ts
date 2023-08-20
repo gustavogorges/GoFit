@@ -16,7 +16,7 @@ export class SuplementosComponent implements OnInit {
   }
 
   paginaProdutos() : void {
-    this.router.navigate(['/paginaProduto'])
+    this.router.navigate(['/paginaProdutoSuplementos'])
   }
 
 }

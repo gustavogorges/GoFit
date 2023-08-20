@@ -1,0 +1,93 @@
+
+.mainDiv {
+    padding : 2%;
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.mainGrid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    height: 100%;
+}
+
+.mainFlex {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.mainTitle {
+    font-size: 3em;
+    color: #03384C;
+    font-weight: 200;
+    border-bottom: 4px solid #FFB84D;
+}
+
+.filterInput {
+    width: 100%;
+}
+
+.tituloFiltro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// BOX PRODUTO
+
+.box {
+    display: flex;
+    width: 65%;
+    height: 30em;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5%;
+    flex-direction: column;
+}
+
+.fotoProduto {
+    width: 100%;
+    height: 100%;
+    background-color: #cecece;
+    border-radius: 5px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.informacoes {
+    width: 100%;
+    height: 80%;
+    padding-top: 5%;
+    padding-left: 4%;
+    
+}
+
+.nomeProduto {
+    font-size: 1.4em;
+    color: #03384C;
+}
+
+.precoProduto {
+    width: 100%;
+    font-size: 1.2em;
+    color: #0338;
+}
+
+.descProduto {
+    font-size: 1.2em;
+    color: #0338;
+}
+
+.btnAddCarrinho {
+    background-color: #FFB84D;
+    border-color: #fff;
+}
+
+.btnAddCarrinho:hover {
+    background-color: #faab33;
+    border-color: #cecece;
+}
