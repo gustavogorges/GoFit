@@ -5,6 +5,8 @@ import { ProdutoComponent } from './produto/produto.component';
 import { CarrinhoComponent } from './carrinho/carrinho.component';
 import { LoginComponent } from './login/login.component';
 import { PerfilComponent } from './perfil/perfil.component';
+import { AcessoriosComponent } from './acessorios/acessorios.component';
+import { RoupasComponent } from './roupas/roupas.component';
 
 const routes: Routes = [
   {
@@ -26,6 +28,14 @@ const routes: Routes = [
   {
     path: "paginaPerfil",
     component: PerfilComponent
+  },
+  {
+    path: "paginaAcessorios",
+    component: AcessoriosComponent
+  },
+  {
+    path: "paginaRoupas",
+    component: RoupasComponent
   },
 ];
 

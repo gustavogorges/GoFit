@@ -33,4 +33,12 @@ export class NavComponent implements OnInit {
     this.router.navigate(['/paginaPerfil'])
   }
 
+  acessorios() : void {
+    this.router.navigate(['/paginaAcessorios'])
+  }
+
+  roupas() : void {
+    this.router.navigate(['/paginaRoupas'])
+  }
+
 }
