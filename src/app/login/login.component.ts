@@ -19,4 +19,8 @@ export class LoginComponent implements OnInit {
     this.router.navigate(['/paginaSuplementos'])
   }
 
+  paginaCadastro() : void {
+    this.router.navigate(['/paginaCadastro'])
+  }
+
 }

@@ -9,10 +9,15 @@ import { AcessoriosComponent } from './acessorios/acessorios.component';
 import { RoupasComponent } from './roupas/roupas.component';
 import { ProdutoAcessorioComponent } from './produto-acessorio/produto-acessorio.component';
 import { ProdutoRoupaComponent } from './produto-roupa/produto-roupa.component';
+import { CadastroComponent } from './cadastro/cadastro.component';
 
 const routes: Routes = [
   {
     path: "",
+    component: LoginComponent
+  },
+  {
+    path: "paginaLogin",
     component: LoginComponent
   },
   {
@@ -46,6 +51,10 @@ const routes: Routes = [
   {
     path: "paginaRoupas",
     component: RoupasComponent
+  },
+  {
+    path: "paginaCadastro",
+    component: CadastroComponent
   },
 ];
 

@@ -17,6 +17,7 @@ import { AcessoriosComponent } from './acessorios/acessorios.component';
 import { RoupasComponent } from './roupas/roupas.component';
 import { ProdutoAcessorioComponent } from './produto-acessorio/produto-acessorio.component';
 import { ProdutoRoupaComponent } from './produto-roupa/produto-roupa.component';
+import { CadastroComponent } from './cadastro/cadastro.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ProdutoRoupaComponent } from './produto-roupa/produto-roupa.component';
     AcessoriosComponent,
     RoupasComponent,
     ProdutoAcessorioComponent,
-    ProdutoRoupaComponent
+    ProdutoRoupaComponent,
+    CadastroComponent
   ],
   imports: [
     BrowserModule,
